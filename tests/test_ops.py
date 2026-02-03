@@ -1,4 +1,4 @@
-from src.ops import add, sub
+from ..src.ops import add, sub
 
 def test_add():
     assert add(10, 2) == 12
