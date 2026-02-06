@@ -9,3 +9,4 @@ def test_sub():
     assert sub(4, 3) == 1
     assert sub(2, 3) == -1
     assert sub(12, 10) == 2
+    assert sub(10, 10) == 0
